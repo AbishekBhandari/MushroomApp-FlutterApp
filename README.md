@@ -1,16 +1,12 @@
 # mushroomapp
 
-A new Flutter project.
+MushroomApp is a flutter application with firebase connectivity.It was developed as a College major project.It classifies mushroom images into edbile or inedible through a CNN model consisting of 3 convolutional layers followed by a fully connected layer.The model was trained and validated using 29,100 images where the ratio of training and validation data was 8:2. The network was trained on 50 epochs.The model has 91% training accuracy and 63% validation accuracy.
 
-## Getting Started
+It consists of 4 screens namely capture image screen, select images screen,previous result screen and about screen.In capture image screen we can capture images using our device camera and predict the edibility of mushroom.
+While in select image screen images can be selected from gallery and edibility can be checked.The CNN model is hosted in remote server.Images are sent to the 
+model through Fast Api and edibility class is returned as response to be displayed in the
+app.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Successfully classified images are stored in firestore which can be viewed in previous 
+result screen.
+About screen provides information about the developers
