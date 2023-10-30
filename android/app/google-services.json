@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "198126648666",
+    "project_id": "mushroomapp-bb3c8",
+    "storage_bucket": "mushroomapp-bb3c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198126648666:android:91f5a438b1b4f2adc10763",
+        "android_client_info": {
+          "package_name": "com.example.mushroomapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198126648666-hvoc514rdcea1355s88cek3sa6lv1klq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCZUAmm6xwlUi9GFnHoVwWHKawSA7Rpvc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198126648666-hvoc514rdcea1355s88cek3sa6lv1klq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
