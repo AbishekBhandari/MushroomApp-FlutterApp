@@ -59,7 +59,7 @@ class _aboutAppState extends State<aboutApp> {
 
                         padding: const EdgeInsets.all(15.0),
 
-                        child: StudentCard(name: 'Abhisekh Bhandari',),
+                        child: StudentCard(name: 'Abishek Bhandari',),
                       ),
                         SizedBox(height: 250.0,),
                         // SizedBox(width: 5.0,),
