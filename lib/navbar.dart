@@ -67,10 +67,10 @@ class _navBarState extends State<navBar> {
         items: [
           BottomNavigationBarItem(
             icon: Icon(Icons.camera),
-            label: 'Home',
+            label: 'CaptureScreen',
           ),
-          BottomNavigationBarItem(icon: Icon(Icons.image), label: 'Info'),
-          BottomNavigationBarItem(icon: Icon(Icons.dataset), label: 'Previous'),
+          BottomNavigationBarItem(icon: Icon(Icons.image), label: 'SelectImage'),
+          BottomNavigationBarItem(icon: Icon(Icons.dataset), label: 'PreviousResult'),
           BottomNavigationBarItem(icon: Icon(Icons.info), label: 'About'),
         ],
       ),
